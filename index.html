@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SF C2.10</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+
+	<div class="container" id="voting_button">
+		Голосуй
+		<section class="mt-2">
+			<button class="btn btn-primary" id="cats">Кошки</button>
+			<button class="btn btn-primary" id="dogs">Собаки</button>
+			<button class="btn btn-primary" id="parrots">Попугаи</button>
+		</section>
+	</div>
+
+	<section class="mt-5 justify-content-center" id="voting_result">
+            
+		Кошки
+		<div class="progress">
+		  <div class="progress-bar" id="pb-cats" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+		</div>
+		Собаки
+		<div class="progress">
+		  <div class="progress-bar" id="pb-dogs" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+		</div>
+		Попугаи
+		<div class="progress">
+		  <div class="progress-bar" id="pb-parrots" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+		</div>
+
+	</section>
+ 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="./src/some_file_with.js"></script>
+	
+</body>
+</html>
